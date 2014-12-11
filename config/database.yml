@@ -5,7 +5,7 @@ default: &default
 
 development:
   <<: *default
-  database: rails-practice-add-rspec_development
+  database: rails-practice-add-authentication_development
 test:
   <<: *default
-  database: rails-practice-add-rspec_test
+  database: rails-practice-add-authentication_test
